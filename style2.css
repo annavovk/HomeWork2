@@ -1,0 +1,41 @@
+.button {
+  display: inline-block;
+
+      background: ;
+
+      width: 139px;
+
+      height: 22px;
+
+      cursor: pointer;
+
+      vertical-align: middle;
+
+      padding-top: 5px;
+}
+
+li {
+  display:inline;
+
+}
+
+/*.gallery li {
+  display: inline-block;
+  float: left;
+  width: 130px;
+  list-style: none;
+}
+
+
+
+/*li {
+
+    height: 84px; // высота блока
+
+    line-height: 84px; // нужен, чтобы заработало vertical-align
+
+    display: inline-block;
+
+    vertical-align: middle;
+
+    text-align: center;
