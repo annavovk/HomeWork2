@@ -44,7 +44,7 @@ body {
     border-right: 1px solid transparent;
 }
 
-#top-middle {
+#middle {
 
 }
 
@@ -91,4 +91,8 @@ body {
 
 .button {
     margin-right: 50px;
+}
+#img {
+    background: url(pic.jpg) no-repeat;
+    height: ;
 }
