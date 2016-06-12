@@ -1,46 +1,94 @@
-#img {
+* {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 280%;
+}
+
+#page {
+    background-color: white;
+    margin: auto;
+    width: 900px;
+    padding: 20px;
+}
+
+body {
+    background-color: #ddd;
+    margin: 0;
+    padding: 0 30px;
+}
+
+#top-menu {
+    padding: 10px 20px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7d7e7d+0,0e0e0e+100;Black+3D */
+    background: #7d7e7d; /* Old browsers */
+    background: -moz-linear-gradient(top, #7d7e7d 0%, #0e0e0e 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #7d7e7d 0%, #0e0e0e 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #7d7e7d 0%, #0e0e0e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7d7e7d', endColorstr='#0e0e0e', GradientType=0); /* IE6-9 */
 
 }
 
+#top-menu .button:hover {
+    background-color: black;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+#top-menu .button {
+    color: white;
+    padding: 10px 20px;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+
+#top-middle {
+
+}
+
+#img {
+    background-color: lime;
+    width: 75%;
+    float: right;
+}
+
+#menu {
+    width: 25%;
+    float: left;
+}
+
+#menu ul li:hover {
+    background-color: #ddd;
+    padding-left: 30px;
+}
+
+#menu ul li {
+    list-style: none;
+    border-bottom: 1px solid dimgray;
+    border-left: 1px solid dimgray;
+    padding: 10px 20px;
+    margin: 0;
+}
+
+#menu ul {
+    padding: 0;
+    margin: 10px auto;
+    border-top: 1px solid dimgray;
+    border-right: 1px solid dimgray;
+}
+
+#footer {
+    background-color: #ddd;
+    clear: both;
+    padding: 10px 20px;
+}
+
+.copyright {
+    float: right;
+}
 
 .button {
-  display: inline-block;
-
-      background: ;
-
-      width: 139px;
-
-      height: 22px;
-
-      cursor: pointer;
-
-      vertical-align: middle;
-
-      padding-top: 5px;
+    margin-right: 50px;
 }
-
-li {
-  display:inline;
-
-}
-
-/*.gallery li {
-  display: inline-block;
-  float: left;
-  width: 130px;
-  list-style: none;
-}
-
-
-
-/*li {
-
-    height: 84px; // высота блока
-
-    line-height: 84px; // нужен, чтобы заработало vertical-align
-
-    display: inline-block;
-
-    vertical-align: middle;
-
-    text-align: center;
